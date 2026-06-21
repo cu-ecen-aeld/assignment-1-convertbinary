@@ -20,6 +20,6 @@ void test_validate_my_username()
      */
     if ( my_username() != malloc_username_from_conf_file() )
     {
-	TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
+	    TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
     }
 }
